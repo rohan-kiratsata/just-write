@@ -1,0 +1,33 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.textarea {
+    font-family: 'Inter', sans-serif;
+    font-size: 14pt;
+    display: block;
+    width: 40%;
+    min-height: 100vh;
+    padding: 1.5rem;
+    border: none;
+    outline: none;
+    background: transparent;
+    line-height: 1.5;
+    resize: none;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.wordCount {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: medium;
+    color: #333;
+}
